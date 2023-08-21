@@ -31,7 +31,13 @@ class ElectricCar extends Car {
         This Car also has a range of $(this.range)`;
 
     }
+
 };
+//Prototype Function 
+
+ElectricCar.prototype.getDescription = function() {
+    return `${this.year} ${this.make} ${this.model} Range:${this.range} miles`;
+}
 
 // Create an instance of ElectricCar
 // add in Make: Tesla, Model: Model S, Year: 2019, and Range: 300
