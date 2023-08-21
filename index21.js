@@ -37,7 +37,6 @@ class ElectricCar extends Car {
 // add in Make: Tesla, Model: Model S, Year: 2019, and Range: 300
 // Output should be a string containing the model, make, year, and range of ElectricCar.
 
-const electricModel = new ElectricCar("Tesla", "Model S", "Year 2019", 300);
+const electricCar = new ElectricCar ("Tesla","Model S", 2019, 300);
 
-const getDescription = electricModel.getDescription();
-console.log(getDescription);
+console.log(electricCar.getDescription());
