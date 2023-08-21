@@ -9,7 +9,7 @@ class Car {
         return `This Car has a $(this.make) setup, modeled by $(this.model) and created in $(this.year)`;
 
     }
-}   console.log(getDescription)
+}   
 
 class ElectricCar extends Car {
     constructor(make, model,year, range){
@@ -24,4 +24,4 @@ class ElectricCar extends Car {
 
     }
 }
-console.log(getDescription)
+
